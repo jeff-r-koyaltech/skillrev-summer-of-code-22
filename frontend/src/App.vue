@@ -3,8 +3,20 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
+  <LoginControl />
   <router-view />
 </template>
+
+<script>
+import LoginControl from '@/components/LoginControl.vue';
+
+export default {
+  name: 'App',
+  components: {
+    LoginControl,
+  },
+};
+</script>
 
 <style>
 #app {

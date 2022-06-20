@@ -10,6 +10,12 @@ export default createStore({
     },
   },
   mutations: {
+    login(state, payload) {
+      state.loggedInUser = payload;
+    },
+    logout(state) {
+      state.loggedInUser = '';
+    },
   },
   actions: {
   },
