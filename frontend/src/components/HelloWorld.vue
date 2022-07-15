@@ -1,4 +1,5 @@
 <template>
+<body>
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
@@ -30,6 +31,10 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
   </div>
+    <footer>
+      <p>Copyright &copy; {{new Date().getFullYear()}} Skillrev Summer of Code</p>
+    </footer>
+  </body>
 </template>
 
 <script>
@@ -56,5 +61,17 @@ li {
 }
 a {
   color: #42b983;
+}
+.hello {
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    min-height: 480px;
+}
+footer {
+  margin-top: auto;
+  background-color: lightgray;
+  text-align: center;
 }
 </style>
