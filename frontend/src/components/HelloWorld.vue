@@ -31,16 +31,10 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
   </div>
-<<<<<<< HEAD
     <footer>
       <p>Copyright &copy; {{new Date().getFullYear()}} Skillrev Summer of Code</p>
     </footer>
   </body>
-=======
-  <footer>
-    <p>Copyright &copy; {{new Date().getFullYear()}} Skillrev Summer of Code</p>
-  </footer>
->>>>>>> a2aacb2dab4a338baa48f8a7f4e3cd72185d2768
 </template>
 
 <script>
@@ -68,7 +62,6 @@ li {
 a {
   color: #42b983;
 }
-<<<<<<< HEAD
 .hello {
     background: pink;
     display: flex;
@@ -80,16 +73,5 @@ footer {
   margin-top: auto;
   background-color: lightgray;
   text-align: center;
-=======
-body {
-  min-height: calc(100vh - 60px);
-}
-footer {
-  background-color: lightgray;
-  height: 50px;
-  width: 100vw;
-  text-align: center;
-  padding: 10px;
->>>>>>> a2aacb2dab4a338baa48f8a7f4e3cd72185d2768
 }
 </style>
